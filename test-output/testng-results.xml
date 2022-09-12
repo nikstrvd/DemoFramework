@@ -2,24 +2,38 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-08T16:08:58 IST" name="Demo Web App test suite" finished-at="2022-09-08T16:09:38 IST" duration-ms="39194">
+  <suite started-at="2022-09-12T15:54:04 IST" name="Suite" finished-at="2022-09-12T15:54:32 IST" duration-ms="28413">
     <groups>
     </groups>
-    <test started-at="2022-09-08T16:08:58 IST" name="LoginTests" finished-at="2022-09-08T16:09:38 IST" duration-ms="39194">
-      <class name="Tests.UserLoginTests">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Tests.UserLoginTests@3646a422]" started-at="2022-09-08T16:08:59 IST" name="LaunchApplication" finished-at="2022-09-08T16:09:35 IST" duration-ms="36032" status="PASS">
+    <test started-at="2022-09-12T15:54:04 IST" name="Test" finished-at="2022-09-12T15:54:32 IST" duration-ms="28413">
+      <class name="com.wellnessy.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.wellnessy.tests.LoginPageTest@6e0f5f7f]" started-at="2022-09-12T15:54:04 IST" name="setUp" finished-at="2022-09-12T15:54:29 IST" duration-ms="25105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@30331109]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="ManagerLoginTest()[pri:0, instance:Tests.UserLoginTests@3646a422]" started-at="2022-09-08T16:09:35 IST" name="ManagerLoginTest" finished-at="2022-09-08T16:09:37 IST" duration-ms="2489" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="clickonCreateaccountLink(java.util.Map)[pri:0, instance:com.wellnessy.tests.LoginPageTest@6e0f5f7f]" started-at="2022-09-12T15:54:29 IST" name="clickonCreateaccountLink" description="To check wheather the user can navigate on create account page" data-provider="getData" finished-at="2022-09-12T15:54:32 IST" duration-ms="2373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=, menuname=, browser=chrome, testname=clickonCreateaccountLink, execute=yes, username=}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ManagerLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.UserLoginTests@3646a422]" started-at="2022-09-08T16:09:37 IST" name="tearDown" finished-at="2022-09-08T16:09:38 IST" duration-ms="339" status="PASS">
+        </test-method> <!-- clickonCreateaccountLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wellnessy.tests.LoginPageTest@6e0f5f7f]" started-at="2022-09-12T15:54:32 IST" name="tearDown" finished-at="2022-09-12T15:54:32 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.UserLoginTests -->
-    </test> <!-- LoginTests -->
-  </suite> <!-- Demo Web App test suite -->
+      </class> <!-- com.wellnessy.tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
